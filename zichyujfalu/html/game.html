@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+
+    <div>
+
+        <div class="end">
+
+            <div id="score"></div>
+
+            <div class="pic" onclick="restart()">Újra</div>
+
+        </div>
+
+        <div class="game">
+
+            <div class="text"><p id="text">Mikor szeret a cápa, ha idén lesz 5 éves?</p></div>
+
+            <div class="answer">
+
+                <div class="a" onclick="answer('a')"> <p id="a"></p> </div>
+                <div class="b" onclick="answer('b')"> <p id="b"></p> </div>
+                <div class="c" onclick="answer('c')"> <p id="c"></p> </div>
+                <div class="d" onclick="answer('d')"> <p id="d"></p> </div>
+
+            </div>
+            
+        </div>
+
+        <div class="buttom"><a href="../html/index.html">Főoldal</a></div>
+    </div>
+
+
+    <script src="../js/game.js"></script>
+</body>
+</html>

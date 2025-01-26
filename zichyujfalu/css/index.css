@@ -1,0 +1,148 @@
+.cim{
+    height: 12vh;
+    border: solid black 2px;
+    background-image: url("../IMG/zichycim.jpg");
+    color: white;
+}
+body{
+    background-color: rgb(108, 116, 113);
+}
+
+.box{
+
+    background-color: aliceblue;
+    height: 60vh;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    border-radius: 3rem;
+}
+.kozep{
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.gomb{
+    height: 5rem;
+}
+.gtext{
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.gright{
+    float: right;
+}
+button{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+button img{
+    height: 100%;
+    width: 100%;
+}
+.kepek{
+    background-image: url("../IMG/4.jpg");
+    background-size: 100%;
+}
+
+.gombalso{
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    width: 50vw;
+    height: 7vh;
+}
+
+.gombalso:hover{
+    color: black;
+    background-color: white;
+}
+
+.text{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border: solid, black, 2px;
+    height: 30vh;
+}
+
+.zkep1{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    flex-direction: row;
+    background-color: white;
+    transition: 3s;
+    opacity: 0;
+}
+
+
+.zlogo1{
+    display: inline-block;
+    position: absolute;
+    width: 8.6rem;
+    height: 20rem;
+    z-index: 1000;
+    margin-top: -100vh;
+    background-image: url("../IMG/zichy1.jpg");
+    background-size: cover;
+    margin-left: -8.6rem;
+    padding: 0;
+    opacity: 0;
+
+}
+
+.zlogo2{
+    display: inline-block;
+    width: 8.6rem;
+    height: 20rem;
+    z-index: 1000;
+    background-image: url("../IMG/zichy2.jpg");
+    background-size: cover;
+    margin: 0;
+    margin-top: 100vh;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+
+.zlogo1, .zlogo2{
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.lóder{
+    display: block;
+    position: absolute;
+    top: 50%;
+    z-index: 998;
+    transform: translateY(-50%);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.load{
+    margin-top: 0;
+    transition: 1s;
+}
+
+.op{
+    animation: op linear;
+}
+
+@keyframes op {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

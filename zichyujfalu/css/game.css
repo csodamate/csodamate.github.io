@@ -1,0 +1,140 @@
+.game{
+
+    display: grid;
+    background-color: rgb(186, 235, 186);
+    width: 80vw;
+    height: 80vh;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+html a{
+    text-decoration: none;
+    color: rgb(186, 235, 186);
+
+}
+
+body{
+    background-color: rgb(64, 97, 64);
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    margin-top: 3vh;
+    width: 60vw;
+    height: 10vh;
+    background-color: rgb(64, 97, 64);
+    border-radius: 1.5rem;
+    color: rgb(186, 235, 186);
+
+}
+
+.answer{
+
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.answer div{
+    width: 25vw;
+    height: 15vh;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vh;
+    background-color: rgb(64, 97, 64);
+    color: rgb(186, 235, 186);
+    transition: all 0.1s;
+
+}
+
+.answer div:hover{
+
+ background-color: rgb(64, 97, 64);
+ color: rgb(186, 235, 186);
+}
+
+.end{
+
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(186, 235, 186);
+    width: 80vw;
+    height: 80vh;
+    justify-content: center;
+    border-radius: 2rem;
+    display: none;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 15vh;
+}
+.end div{
+
+    display: flex;
+    margin: auto;
+}
+
+.end div:nth-child(1){
+    color: rgb(64, 97, 64);
+}
+
+.end div:nth-child(2){
+    color: rgb(186, 235, 186);
+}
+
+.pic{
+
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+    background-color: rgb(64, 97, 64);
+    color: rgb(186, 235, 186);
+    box-shadow: 4px 6px rgb(51, 43, 32);
+    transition: all 0.1s;
+}
+
+.pic:hover{
+    background-color: rgb(64, 97, 64);
+    box-shadow: 2px 3px rgb(51, 43, 32);
+    transform: translateY(2px);
+    color: rgb(186, 235, 186);
+}
+
+.buttom{
+    margin-top: 4vh;
+    border: rgb(186, 235, 186) solid 3px;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    letter-spacing: 1vh;
+    border-radius: 1.5rem;
+    color: rgb(186, 235, 186);
+
+    transition: all 0.2s;
+}
+
+.buttom:hover{
+    background-color: rgb(186, 235, 186);
+}
+
+.buttom:hover a{
+    color: rgb(64, 97, 64);
+}
+
+
